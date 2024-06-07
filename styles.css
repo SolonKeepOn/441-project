@@ -1,0 +1,407 @@
+/*Shao jiale Solon 223190715*/
+
+/*Setting the header style*/
+header{
+    background-color: rgba(120, 101, 240, 0.5);                                         
+    border: 5px solid white;            
+}
+
+h1{
+            
+    color: rgba(255, 166, 0, 0.9);
+    text-shadow:10px 10px 10px  rgb(255, 0, 251);
+    text-align: center;
+}
+
+/*Setting the navigation bar style*/
+.navigation a{       
+    color: rgba(217, 17, 130, 0.9);
+    margin: 50px;
+    text-decoration: none;       
+}
+.navigation a:hover{
+    color: burlywood;
+}
+
+.navigation a.active{
+    background-color: rgb(0, 0, 0);
+}
+
+/*Setting the footer style*/
+footer{
+    background-color: rgb(146, 178, 230,0.5);                     
+    border: 5px solid white;            
+    bottom: 0;
+    left: 0;
+    right: 0;  
+}
+footer p{            
+    text-align: center;
+}
+
+.border{ 
+    border: 2px solid black;          
+    margin-top: 0px;
+    height: auto;
+    text-align: center;
+}
+
+.row{
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.leftcolumn{          
+    width: 50%;
+    float: left;
+}
+
+.card6{
+    background-color: rgba(237, 174, 174, 0.8);           
+    border: 0px solid black;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-left: 10px;         
+    height: 400px;
+    width: 600px;
+    text-align: center;       
+}
+
+.card6 p{
+    column-count:3;
+    column-gap:10px;           
+}
+
+.rightcolumn{
+    width: 40%;
+    float: right;
+}
+
+.card7{
+    background-color: rgba(237, 174, 174, 0.8);           
+    border: 0px solid black;
+    border-radius: 15px;
+    margin-top: 20px;        
+    height: 200px;
+    width: 500px;            
+}
+
+.card7 p{
+    column-count:2;
+    column-gap:30px;           
+}
+
+.card8{
+    background-color: rgba(237, 174, 174, 0.8);           
+    border: 0px solid black;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;         
+    height: 200px;
+    width: 500px;           
+}
+
+.card8 p{
+    column-count:2;
+    column-gap:30px;           
+}
+
+.cart button {
+    padding: 10px 20px;
+    background-color: #e25361;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+
+.Courses {
+     display: flex;
+     justify-content: space-between; 
+     gap: 10px; 
+     width: 100%;
+     align-items: center;
+ }
+
+.card9,.card10,.card11,.card12,.card13 {
+     background-color: rgba(255, 255, 255, 0.8);
+     border: 0px solid black;
+     border-radius: 15px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     margin-left: 10px;
+     margin-right: 10px;
+     height: 350px;
+     width: 300px;     
+     background-color: aqua;
+     text-align: center;
+ }
+
+.img9,.img10,.img11,.img12,.img13{
+     width: 100px;
+     height: 100px;
+     margin-top: 20px;
+ }
+
+.card14,.card15,.card16,.card17,.card18,.card19,.card20,.card21 {
+     display: inline-block;
+     margin-right: 10px;
+     margin-top: 20px;
+     background-color: aquamarine;
+     width: 250px;
+     height: 230px;
+     margin-bottom: 20px;
+ }
+
+.img14,.img15,.img16,.img17,.img18,.img19,.img20,.img21{
+     width: 100px;
+     height: 75px;
+     margin-top: 20px;
+ }
+
+ .Courses button{
+     background-color: #c747b8;
+     margin-top: 10px;
+     color: white;
+     padding: 10px 20px;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+ }
+ 
+.Resource button{
+     background-color: #c747b8;
+     margin-top: 10px;
+     color: white;
+     padding: 10px 20px;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+}
+
+
+.featured-courses {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card2 {
+  margin-left: 10%;
+  float: left;
+  background-color: antiquewhite;
+  width: 400px;
+  height: 400px;
+}
+
+.card2 img {
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.card2 p {
+    bottom: 10px;
+    left: 50%;
+}
+
+.card3 {
+  margin-right: 10%;
+  float: right;
+  background-color: antiquewhite;
+  width: 400px;
+  height: 400px;
+}
+
+.card3 img {
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    padding-top:30px;
+}
+
+.card3 p {
+    bottom: 10px;
+    left: 50%;
+}
+
+
+
+.featured-resource {
+    display: flex;
+    flex-direction: column;
+}
+
+.card4 {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.card4 img {
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    padding-top:30px;
+}
+
+.card5 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.card5 img {
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    padding-top:30px;
+}
+
+
+.img16, .img17, .img18{
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+/*Setting the to do list style*/
+#todo-app {
+            
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e69f9f;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}  
+        
+#todo-form input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #ec7575;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+#todo-form button {
+    padding: 10px 20px;
+    background-color: #5F9EA0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+#todo-form button:hover {
+    background-color: #4682B4;
+}
+
+        #todo-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        #todo-list li {
+            background-color: #f9f9f9;
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+    
+        .register button {
+            padding: 10px 40px;
+            background-color: #6b96e4;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+       
+
+        .login input[type="text"],
+        .login input[type="password"] {
+          width: 50%;
+          padding: 10px;
+          border: 1px solid #aaa;
+          margin-bottom: 10px;
+        }
+        
+        .login button {
+          background-color: #4CAF50;
+          color: white;
+          padding: 10px 20px;
+          border: none;
+          cursor: pointer;
+          border-radius: 5px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+        
+        .login button:hover {
+          background-color: #45a049;
+        }
+
+
+.createUser input[type="text"],
+.createUser input[type="password"] {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  margin-bottom: 10px;
+}
+
+.createUser button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.createUser button:hover {
+  background-color: #45a049;
+}
+
+.hero {
+    position: relative;
+  }
+  
+  .heroimg {
+    width: 100%;
+    height: 400px;
+  }
+  
+  .caption {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px 10px;
+  }
+
